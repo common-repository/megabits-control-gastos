@@ -1,0 +1,15 @@
+#postbox-container-2 {
+	max-width: 40%;
+}
+#visor-pdf {
+	float: right;
+	border: 1px solid;
+}
+.factura_importe {
+	margin-right: 70%;
+	float: right;
+}
+/* Oculta el título */
+#post-body-content {
+	display: none;
+}

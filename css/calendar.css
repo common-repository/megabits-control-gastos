@@ -1,0 +1,38 @@
+.fc-theme-standard td, .fc-theme-standard th, .fc-theme-standard .fc-scrollgrid {
+    border: 1px solid #ffc570;
+}
+.fc .fc-scrollgrid-section-header>* {
+    background-color: lightsteelblue;
+}
+.fc-daygrid-day {
+    background-color: aliceblue;
+}
+.fc .fc-daygrid-day.fc-day-today {
+    background-color: #d3ffa0;
+}
+.fc-day-sat, .fc-day-sun {
+    background-color: #ffdc2826;
+}
+.fc-event-title-container {
+    text-align: center;
+}
+.fc-event-title-container:hover {
+    background-color: lightblue;
+}
+.fc-event-title {
+    font-size: larger;
+    font-weight: 600;
+}
+.div_factura_event {
+    display: flex;
+    position: relative;
+    border: 3px solid lightblue;
+    padding: 5px;
+    margin: 0 .5% 10px .5%;
+    text-align: center;
+    justify-content: center;
+    background-color: lightsteelblue;
+}
+.fc-event-past {
+    opacity: 0.5;
+}

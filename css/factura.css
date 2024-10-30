@@ -1,0 +1,91 @@
+.boton_listado {
+    font-size: 14px;
+    line-height: 2;
+    color: darkblue;
+    box-shadow: none;
+    border-radius: 3px;
+    padding: 0 24px 0 8px;
+    min-height: 30px;
+    max-width: 25rem;
+    -webkit-appearance: none;
+    vertical-align: middle;
+    background: cyan;
+    border: 1px solid #8c8f94;
+    cursor: pointer;
+}
+.boton_pagina {
+    font-size: 14px;
+    color: darkblue;
+    box-shadow: none;
+    border-radius: 3px;
+    max-width: 25rem;
+    -webkit-appearance: none;
+    background: cyan;
+    border: 1px solid #8c8f94;
+    cursor: pointer;
+    padding: 0 8px;
+}
+.div_factura {
+    display: flex;
+    position: relative;
+    border: 3px solid lightblue;
+    padding: 5px;
+    margin: 0 .5% 10px .5%;
+    text-align: center;
+    justify-content: center;
+    width: 18%;
+    background-color: lightsteelblue;
+}
+.inferior {
+    position: absolute;
+    bottom: 0;
+    background-color: lightgrey;
+    width: 100%;
+    opacity: 0.8;
+    color: darkblue;
+    font-weight: 600;
+}
+.max_display {
+    line-height: initial !important;
+    min-height: auto !important;
+    padding-right: 0px !important;
+}
+.pagination_top {
+    position: absolute;
+    font-size: 12px;
+}
+.pagination_div {
+    margin-top: 1.5em;
+    text-align: center;
+}
+.pagination_actual_page {
+    background: #00c3c3;
+}
+.listing_div1, .info_div1 {
+    display: flex;
+    margin: 2em 0;
+}
+.listing_form {
+    margin-bottom: 1em;
+}
+.listing_input {
+    float: right;
+}
+.listing_div2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.listing_pdf_imagen_a {
+    cursor: zoom-in;
+}
+.div1_img {
+    width: 12em;
+    margin-right: 1em;
+}
+.info_div2 {
+    height: 100%;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),url('../assets/icon-256x256.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
